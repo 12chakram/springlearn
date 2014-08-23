@@ -11,7 +11,7 @@
 <body>
 <font color='red'><form:errors path='global' /></font>
 <div>
-  <form:form method='post' action='/springlearn/customer/addCustomer' commandName='customer'>
+  <form:form method='post' action='/customer/addCustomer' commandName='customer'>
     <table>
       <tr>
         <td>First Name: <font color='red'><form:errors path='firstName' /></font></td>
